@@ -3,4 +3,6 @@
     <dimen name="button_size">128dp</dimen>
     <dimen name="button_text_size">32dp</dimen>
     <dimen name="text_view_count_size">48sp</dimen>
+    <dimen name="common_padding_min">8dp</dimen>
+    <dimen name="button_stroke">2dp</dimen>
 </resources>

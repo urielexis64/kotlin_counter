@@ -3,15 +3,51 @@
     <item android:state_pressed="false">
         <shape
             android:shape="oval">
-            <solid android:color="@android:color/holo_blue_dark"/>
+            <gradient
+                android:startColor="@color/purple_500"
+               android:endColor="@color/purple_200"
+                android:gradientRadius="80%p"
+                android:type="radial"
+                android:centerX="0.5"
+                android:centerY="0.5"
+                />
+<!--            <solid android:color="@android:color/holo_blue_dark"/>-->
+            <stroke
+                android:width="@dimen/button_stroke"
+                android:color="@color/purple_700"/>
+            <size
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"/>
+            <padding
+                android:top="@dimen/common_padding_min"
+                android:bottom="@dimen/common_padding_min"
+                android:left="@dimen/common_padding_min"
+                android:right="@dimen/common_padding_min"/>
         </shape>
     </item>
 
     <item android:state_pressed="true">
         <shape
             android:shape="oval">
-            <solid android:color="@android:color/holo_blue_light"/>
+            <gradient
+                android:startColor="@color/purple_700"
+                android:endColor="@color/purple_200"
+                android:type="radial"
+                android:centerX="0.5"
+                android:centerY="0.5"
+                android:gradientRadius="100%p"
+                />
+            <stroke
+                android:width="@dimen/button_stroke"
+                android:color="@color/white"/>
+            <size
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"/>
+            <padding
+                android:top="@dimen/common_padding_min"
+                android:bottom="@dimen/common_padding_min"
+                android:left="@dimen/common_padding_min"
+                android:right="@dimen/common_padding_min"/>
         </shape>
-
     </item>
 </selector>
