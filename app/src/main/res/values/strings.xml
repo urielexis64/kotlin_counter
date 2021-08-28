@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Counter</string>
+    <string name="button_sum">+1</string>
+</resources>
